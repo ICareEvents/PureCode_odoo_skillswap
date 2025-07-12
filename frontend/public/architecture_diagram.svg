@@ -1,0 +1,318 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="800" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1F2937">
+    Skill Swap Platform - System Architecture
+  </text>
+  
+  <!-- Client Layer -->
+  <g id="client-layer">
+    <rect x="50" y="80" width="1500" height="150" rx="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="3"/>
+    <text x="800" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1E40AF">
+      Client Layer
+    </text>
+    
+    <!-- Desktop -->
+    <rect x="200" y="130" width="150" height="80" rx="8" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+    <text x="275" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Desktop Browser</text>
+    <text x="275" y="175" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Chrome, Firefox</text>
+    <text x="275" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Safari, Edge</text>
+    
+    <!-- Mobile -->
+    <rect x="400" y="130" width="150" height="80" rx="8" fill="#10B981" stroke="#059669" stroke-width="2"/>
+    <text x="475" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Mobile Browser</text>
+    <text x="475" y="175" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">iOS Safari</text>
+    <text x="475" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Android Chrome</text>
+    
+    <!-- Tablet -->
+    <rect x="600" y="130" width="150" height="80" rx="8" fill="#8B5CF6" stroke="#7C3AED" stroke-width="2"/>
+    <text x="675" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Tablet Browser</text>
+    <text x="675" y="175" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">iPad Safari</text>
+    <text x="675" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Android Chrome</text>
+    
+    <!-- PWA -->
+    <rect x="1050" y="130" width="150" height="80" rx="8" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+    <text x="1125" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Progressive Web</text>
+    <text x="1125" y="175" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Installable PWA</text>
+    <text x="1125" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Offline Capable</text>
+  </g>
+  
+  <!-- Frontend Layer -->
+  <g id="frontend-layer">
+    <rect x="50" y="280" width="1500" height="200" rx="10" fill="#F0FDF4" stroke="#10B981" stroke-width="3"/>
+    <text x="800" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#059669">
+      Frontend Layer - Next.js 14 (React)
+    </text>
+    
+    <!-- Next.js App -->
+    <rect x="100" y="330" width="200" height="120" rx="8" fill="#000000" stroke="#374151" stroke-width="2"/>
+    <text x="200" y="360" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Next.js 14</text>
+    <text x="200" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">App Router</text>
+    <text x="200" y="395" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">SSR + ISR</text>
+    <text x="200" y="410" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">TypeScript</text>
+    <text x="200" y="425" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Responsive Design</text>
+    
+    <!-- State Management -->
+    <rect x="320" y="330" width="180" height="120" rx="8" fill="#EF4444" stroke="#DC2626" stroke-width="2"/>
+    <text x="410" y="360" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">State Management</text>
+    <text x="410" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Zustand Store</text>
+    <text x="410" y="395" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">SWR Data Fetching</text>
+    <text x="410" y="410" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">React Hook Form</text>
+    <text x="410" y="425" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Zod Validation</text>
+    
+    <!-- UI Components -->
+    <rect x="520" y="330" width="180" height="120" rx="8" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+    <text x="610" y="360" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">UI Components</text>
+    <text x="610" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Tailwind CSS</text>
+    <text x="610" y="395" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Headless UI</text>
+    <text x="610" y="410" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Lucide Icons</text>
+    <text x="610" y="425" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">React Hot Toast</text>
+    
+    <!-- Real-time -->
+    <rect x="720" y="330" width="180" height="120" rx="8" fill="#8B5CF6" stroke="#7C3AED" stroke-width="2"/>
+    <text x="810" y="360" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Real-time</text>
+    <text x="810" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">WebSocket Client</text>
+    <text x="810" y="395" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Live Notifications</text>
+    <text x="810" y="410" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Auto Reconnect</text>
+    <text x="810" y="425" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Connection Status</text>
+    
+    <!-- Performance -->
+    <rect x="920" y="330" width="180" height="120" rx="8" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+    <text x="1010" y="360" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Performance</text>
+    <text x="1010" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Code Splitting</text>
+    <text x="1010" y="395" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Bundle Analysis</text>
+    <text x="1010" y="410" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Image Optimization</text>
+    <text x="1010" y="425" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Lazy Loading</text>
+    
+    <!-- Security -->
+    <rect x="1120" y="330" width="180" height="120" rx="8" fill="#059669" stroke="#047857" stroke-width="2"/>
+    <text x="1210" y="360" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Security</text>
+    <text x="1210" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">XSS Protection</text>
+    <text x="1210" y="395" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">CSRF Tokens</text>
+    <text x="1210" y="410" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Input Sanitization</text>
+    <text x="1210" y="425" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Secure Headers</text>
+    
+    <!-- API Gateway -->
+    <rect x="1320" y="330" width="180" height="120" rx="8" fill="#DC2626" stroke="#B91C1C" stroke-width="2"/>
+    <text x="1410" y="360" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">API Integration</text>
+    <text x="1410" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Axios HTTP Client</text>
+    <text x="1410" y="395" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Request Interceptors</text>
+    <text x="1410" y="410" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Error Handling</text>
+    <text x="1410" y="425" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Auto Retry</text>
+  </g>
+  
+  <!-- Backend Layer -->
+  <g id="backend-layer">
+    <rect x="50" y="530" width="1500" height="200" rx="10" fill="#FEF3C7" stroke="#F59E0B" stroke-width="3"/>
+    <text x="800" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#D97706">
+      Backend Layer - FastAPI (Python)
+    </text>
+    
+    <!-- FastAPI Core -->
+    <rect x="100" y="580" width="200" height="120" rx="8" fill="#059669" stroke="#047857" stroke-width="2"/>
+    <text x="200" y="610" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">FastAPI Core</text>
+    <text x="200" y="630" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">ASGI Server</text>
+    <text x="200" y="645" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Automatic Docs</text>
+    <text x="200" y="660" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Type Validation</text>
+    <text x="200" y="675" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Dependency Injection</text>
+    
+    <!-- Authentication -->
+    <rect x="320" y="580" width="180" height="120" rx="8" fill="#7C3AED" stroke="#6D28D9" stroke-width="2"/>
+    <text x="410" y="610" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Authentication</text>
+    <text x="410" y="630" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">JWT Tokens</text>
+    <text x="410" y="645" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">bcrypt Hashing</text>
+    <text x="410" y="660" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">HttpOnly Cookies</text>
+    <text x="410" y="675" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Refresh Tokens</text>
+    
+    <!-- API Endpoints -->
+    <rect x="520" y="580" width="180" height="120" rx="8" fill="#DC2626" stroke="#B91C1C" stroke-width="2"/>
+    <text x="610" y="610" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">REST API</text>
+    <text x="610" y="630" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">User Management</text>
+    <text x="610" y="645" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Skill Exchange</text>
+    <text x="610" y="660" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Rating System</text>
+    <text x="610" y="675" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Admin Functions</text>
+    
+    <!-- WebSocket -->
+    <rect x="720" y="580" width="180" height="120" rx="8" fill="#EF4444" stroke="#DC2626" stroke-width="2"/>
+    <text x="810" y="610" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">WebSocket</text>
+    <text x="810" y="630" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Real-time Events</text>
+    <text x="810" y="645" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Connection Manager</text>
+    <text x="810" y="660" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">User Notifications</text>
+    <text x="810" y="675" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Heartbeat Monitor</text>
+    
+    <!-- Data Validation -->
+    <rect x="920" y="580" width="180" height="120" rx="8" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+    <text x="1010" y="610" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Data Validation</text>
+    <text x="1010" y="630" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Pydantic Models</text>
+    <text x="1010" y="645" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Input Sanitization</text>
+    <text x="1010" y="660" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Schema Validation</text>
+    <text x="1010" y="675" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Error Responses</text>
+    
+    <!-- Middleware -->
+    <rect x="1120" y="580" width="180" height="120" rx="8" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+    <text x="1210" y="610" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Middleware</text>
+    <text x="1210" y="630" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Rate Limiting</text>
+    <text x="1210" y="645" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">CORS Handler</text>
+    <text x="1210" y="660" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Request Logging</text>
+    <text x="1210" y="675" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Error Handler</text>
+    
+    <!-- File Storage -->
+    <rect x="1320" y="580" width="180" height="120" rx="8" fill="#8B5CF6" stroke="#7C3AED" stroke-width="2"/>
+    <text x="1410" y="610" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">File Storage</text>
+    <text x="1410" y="630" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Avatar Uploads</text>
+    <text x="1410" y="645" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Image Processing</text>
+    <text x="1410" y="660" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">File Validation</text>
+    <text x="1410" y="675" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Local Storage</text>
+  </g>
+  
+  <!-- Database Layer -->
+  <g id="database-layer">
+    <rect x="50" y="780" width="1500" height="150" rx="10" fill="#F3E8FF" stroke="#8B5CF6" stroke-width="3"/>
+    <text x="800" y="810" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7C3AED">
+      Database Layer - PostgreSQL 16
+    </text>
+    
+    <!-- PostgreSQL -->
+    <rect x="200" y="830" width="200" height="80" rx="8" fill="#336791" stroke="#1F4287" stroke-width="2"/>
+    <text x="300" y="860" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">PostgreSQL 16</text>
+    <text x="300" y="880" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">ACID Compliance</text>
+    <text x="300" y="895" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">JSON Support</text>
+    
+    <!-- SQLAlchemy ORM -->
+    <rect x="420" y="830" width="200" height="80" rx="8" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+    <text x="520" y="860" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">SQLAlchemy ORM</text>
+    <text x="520" y="880" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Object Mapping</text>
+    <text x="520" y="895" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Query Builder</text>
+    
+    <!-- Alembic -->
+    <rect x="640" y="830" width="200" height="80" rx="8" fill="#10B981" stroke="#059669" stroke-width="2"/>
+    <text x="740" y="860" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Alembic Migrations</text>
+    <text x="740" y="880" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Schema Evolution</text>
+    <text x="740" y="895" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Version Control</text>
+    
+    <!-- Trigram Search -->
+    <rect x="860" y="830" width="200" height="80" rx="8" fill="#EF4444" stroke="#DC2626" stroke-width="2"/>
+    <text x="960" y="860" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">pg_trgm Extension</text>
+    <text x="960" y="880" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Fuzzy Search</text>
+    <text x="960" y="895" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Similarity Ranking</text>
+    
+    <!-- Indexing -->
+    <rect x="1080" y="830" width="200" height="80" rx="8" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+    <text x="1180" y="860" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Database Indexing</text>
+    <text x="1180" y="880" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">B-tree Indexes</text>
+    <text x="1180" y="895" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">GIN Indexes</text>
+  </g>
+  
+  <!-- External Services -->
+  <g id="external-layer">
+    <rect x="50" y="980" width="1500" height="150" rx="10" fill="#FEE2E2" stroke="#EF4444" stroke-width="3"/>
+    <text x="800" y="1010" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#DC2626">
+      External Services & Infrastructure
+    </text>
+    
+    <!-- Development -->
+    <rect x="150" y="1030" width="200" height="80" rx="8" fill="#374151" stroke="#1F2937" stroke-width="2"/>
+    <text x="250" y="1060" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Development</text>
+    <text x="250" y="1080" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Local Environment</text>
+    <text x="250" y="1095" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Hot Reload</text>
+    
+    <!-- Version Control -->
+    <rect x="370" y="1030" width="200" height="80" rx="8" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+    <text x="470" y="1060" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Version Control</text>
+    <text x="470" y="1080" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Git Repository</text>
+    <text x="470" y="1095" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Feature Branches</text>
+    
+    <!-- Testing -->
+    <rect x="590" y="1030" width="200" height="80" rx="8" fill="#10B981" stroke="#059669" stroke-width="2"/>
+    <text x="690" y="1060" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Testing Suite</text>
+    <text x="690" y="1080" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Jest + Pytest</text>
+    <text x="690" y="1095" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">80% Coverage</text>
+    
+    <!-- Monitoring -->
+    <rect x="810" y="1030" width="200" height="80" rx="8" fill="#8B5CF6" stroke="#7C3AED" stroke-width="2"/>
+    <text x="910" y="1060" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Monitoring</text>
+    <text x="910" y="1080" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Health Checks</text>
+    <text x="910" y="1095" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Performance Metrics</text>
+    
+    <!-- Containerization -->
+    <rect x="1030" y="1030" width="200" height="80" rx="8" fill="#2563EB" stroke="#1D4ED8" stroke-width="2"/>
+    <text x="1130" y="1060" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Containerization</text>
+    <text x="1130" y="1080" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Docker Support</text>
+    <text x="1130" y="1095" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Docker Compose</text>
+    
+    <!-- Deployment -->
+    <rect x="1250" y="1030" width="200" height="80" rx="8" fill="#DC2626" stroke="#B91C1C" stroke-width="2"/>
+    <text x="1350" y="1060" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Deployment</text>
+    <text x="1350" y="1080" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Production Ready</text>
+    <text x="1350" y="1095" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Scalable Design</text>
+  </g>
+  
+  <!-- Data Flow Arrows -->
+  <g id="data-flow" stroke="#6B7280" stroke-width="3" fill="none" marker-end="url(#flowArrow)">
+    <!-- Client to Frontend -->
+    <line x1="400" y1="230" x2="400" y2="280"/>
+    <line x1="600" y1="230" x2="600" y2="280"/>
+    <line x1="800" y1="230" x2="800" y2="280"/>
+    
+    <!-- Frontend to Backend -->
+    <line x1="800" y1="480" x2="800" y2="530"/>
+    
+    <!-- Backend to Database -->
+    <line x1="800" y1="730" x2="800" y2="780"/>
+    
+    <!-- External Services -->
+    <line x1="800" y1="930" x2="800" y2="980"/>
+  </g>
+  
+  <!-- Arrow marker for data flow -->
+  <defs>
+    <marker id="flowArrow" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#6B7280"/>
+    </marker>
+  </defs>
+  
+  <!-- Technology Stack Summary -->
+  <g id="tech-stack" transform="translate(1450, 100)">
+    <rect x="0" y="0" width="140" height="600" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2" rx="8"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1F2937">
+      Tech Stack
+    </text>
+    
+    <text x="10" y="50" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Frontend:</text>
+    <text x="10" y="65" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Next.js 14</text>
+    <text x="10" y="80" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• TypeScript</text>
+    <text x="10" y="95" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Tailwind CSS</text>
+    <text x="10" y="110" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• SWR</text>
+    <text x="10" y="125" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Zustand</text>
+    
+    <text x="10" y="150" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Backend:</text>
+    <text x="10" y="165" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• FastAPI</text>
+    <text x="10" y="180" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Python 3.11+</text>
+    <text x="10" y="195" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Pydantic</text>
+    <text x="10" y="210" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• SQLAlchemy</text>
+    <text x="10" y="225" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• WebSockets</text>
+    
+    <text x="10" y="250" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Database:</text>
+    <text x="10" y="265" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• PostgreSQL 16</text>
+    <text x="10" y="280" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• pg_trgm</text>
+    <text x="10" y="295" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Alembic</text>
+    
+    <text x="10" y="320" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Security:</text>
+    <text x="10" y="335" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• JWT Auth</text>
+    <text x="10" y="350" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• bcrypt</text>
+    <text x="10" y="365" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• CSRF Protection</text>
+    <text x="10" y="380" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Rate Limiting</text>
+    
+    <text x="10" y="405" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">DevOps:</text>
+    <text x="10" y="420" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Docker</text>
+    <text x="10" y="435" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Git</text>
+    <text x="10" y="450" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• ESLint</text>
+    <text x="10" y="465" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Pytest</text>
+    
+    <text x="10" y="490" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">Features:</text>
+    <text x="10" y="505" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Real-time</text>
+    <text x="10" y="520" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Responsive</text>
+    <text x="10" y="535" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Progressive</text>
+    <text x="10" y="550" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Accessible</text>
+    <text x="10" y="565" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">• Offline Ready</text>
+  </g>
+</svg>

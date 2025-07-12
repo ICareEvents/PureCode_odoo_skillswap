@@ -1,0 +1,198 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2937">
+    Skill Swap Platform - Sequence Diagram
+  </text>
+  
+  <!-- Actors -->
+  <g id="actors">
+    <!-- User A -->
+    <rect x="80" y="60" width="100" height="40" rx="5" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+    <text x="130" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">User A</text>
+    
+    <!-- Frontend -->
+    <rect x="250" y="60" width="100" height="40" rx="5" fill="#10B981" stroke="#059669" stroke-width="2"/>
+    <text x="300" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Frontend</text>
+    
+    <!-- Backend API -->
+    <rect x="420" y="60" width="100" height="40" rx="5" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+    <text x="470" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Backend API</text>
+    
+    <!-- Database -->
+    <rect x="590" y="60" width="100" height="40" rx="5" fill="#8B5CF6" stroke="#7C3AED" stroke-width="2"/>
+    <text x="640" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Database</text>
+    
+    <!-- WebSocket -->
+    <rect x="760" y="60" width="100" height="40" rx="5" fill="#EF4444" stroke="#DC2626" stroke-width="2"/>
+    <text x="810" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">WebSocket</text>
+    
+    <!-- User B -->
+    <rect x="930" y="60" width="100" height="40" rx="5" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+    <text x="980" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">User B</text>
+  </g>
+  
+  <!-- Lifelines -->
+  <g id="lifelines" stroke="#6B7280" stroke-width="2" stroke-dasharray="5,5">
+    <line x1="130" y1="100" x2="130" y2="750"/>
+    <line x1="300" y1="100" x2="300" y2="750"/>
+    <line x1="470" y1="100" x2="470" y2="750"/>
+    <line x1="640" y1="100" x2="640" y2="750"/>
+    <line x1="810" y1="100" x2="810" y2="750"/>
+    <line x1="980" y1="100" x2="980" y2="750"/>
+  </g>
+  
+  <!-- Messages -->
+  <g id="messages" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+    
+    <!-- 1. User Registration/Login -->
+    <g id="msg1">
+      <line x1="130" y1="130" x2="300" y2="130" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="215" y="125" text-anchor="middle" fill="#1F2937" font-weight="bold">1. Login/Register</text>
+    </g>
+    
+    <g id="msg2">
+      <line x1="300" y1="150" x2="470" y2="150" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="385" y="145" text-anchor="middle" fill="#1F2937">POST /auth/login</text>
+    </g>
+    
+    <g id="msg3">
+      <line x1="470" y1="170" x2="640" y2="170" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="555" y="165" text-anchor="middle" fill="#1F2937">Validate credentials</text>
+    </g>
+    
+    <g id="msg4">
+      <line x1="640" y1="190" x2="470" y2="190" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+      <text x="555" y="185" text-anchor="middle" fill="#1F2937">User data</text>
+    </g>
+    
+    <g id="msg5">
+      <line x1="470" y1="210" x2="300" y2="210" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+      <text x="385" y="205" text-anchor="middle" fill="#1F2937">JWT tokens</text>
+    </g>
+    
+    <!-- 2. Browse Users -->
+    <g id="msg6">
+      <line x1="130" y1="250" x2="300" y2="250" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="215" y="245" text-anchor="middle" fill="#1F2937" font-weight="bold">2. Browse users with skills</text>
+    </g>
+    
+    <g id="msg7">
+      <line x1="300" y1="270" x2="470" y2="270" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="385" y="265" text-anchor="middle" fill="#1F2937">GET /users?skill=Excel</text>
+    </g>
+    
+    <g id="msg8">
+      <line x1="470" y1="290" x2="640" y2="290" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="555" y="285" text-anchor="middle" fill="#1F2937">Search with trigrams</text>
+    </g>
+    
+    <g id="msg9">
+      <line x1="640" y1="310" x2="470" y2="310" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+      <text x="555" y="305" text-anchor="middle" fill="#1F2937">Matching users</text>
+    </g>
+    
+    <g id="msg10">
+      <line x1="470" y1="330" x2="300" y2="330" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+      <text x="385" y="325" text-anchor="middle" fill="#1F2937">User list + skills</text>
+    </g>
+    
+    <!-- 3. Create Swap Request -->
+    <g id="msg11">
+      <line x1="130" y1="370" x2="300" y2="370" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="215" y="365" text-anchor="middle" fill="#1F2937" font-weight="bold">3. Request skill swap</text>
+    </g>
+    
+    <g id="msg12">
+      <line x1="300" y1="390" x2="470" y2="390" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="385" y="385" text-anchor="middle" fill="#1F2937">POST /swaps</text>
+    </g>
+    
+    <g id="msg13">
+      <line x1="470" y1="410" x2="640" y2="410" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="555" y="405" text-anchor="middle" fill="#1F2937">Create swap_request</text>
+    </g>
+    
+    <g id="msg14">
+      <line x1="640" y1="430" x2="470" y2="430" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+      <text x="555" y="425" text-anchor="middle" fill="#1F2937">Swap ID</text>
+    </g>
+    
+    <!-- 4. Real-time Notification -->
+    <g id="msg15">
+      <line x1="470" y1="450" x2="810" y2="450" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="640" y="445" text-anchor="middle" fill="#1F2937">WebSocket notification</text>
+    </g>
+    
+    <g id="msg16">
+      <line x1="810" y1="470" x2="980" y2="470" stroke="#EF4444" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="895" y="465" text-anchor="middle" fill="#1F2937" font-weight="bold">4. New request notification</text>
+    </g>
+    
+    <!-- 5. Accept Swap -->
+    <g id="msg17">
+      <line x1="980" y1="510" x2="300" y2="510" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="640" y="505" text-anchor="middle" fill="#1F2937" font-weight="bold">5. Accept swap request</text>
+    </g>
+    
+    <g id="msg18">
+      <line x1="300" y1="530" x2="470" y2="530" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="385" y="525" text-anchor="middle" fill="#1F2937">PUT /swaps/:id</text>
+    </g>
+    
+    <g id="msg19">
+      <line x1="470" y1="550" x2="640" y2="550" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="555" y="545" text-anchor="middle" fill="#1F2937">Update status=accepted</text>
+    </g>
+    
+    <!-- 6. Notify User A -->
+    <g id="msg20">
+      <line x1="470" y1="570" x2="810" y2="570" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="640" y="565" text-anchor="middle" fill="#1F2937">Accept notification</text>
+    </g>
+    
+    <g id="msg21">
+      <line x1="810" y1="590" x2="130" y2="590" stroke="#EF4444" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="470" y="585" text-anchor="middle" fill="#1F2937" font-weight="bold">6. Swap accepted!</text>
+    </g>
+    
+    <!-- 7. Complete and Rate -->
+    <g id="msg22">
+      <line x1="130" y1="630" x2="300" y2="630" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="215" y="625" text-anchor="middle" fill="#1F2937" font-weight="bold">7. Rate experience</text>
+    </g>
+    
+    <g id="msg23">
+      <line x1="300" y1="650" x2="470" y2="650" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="385" y="645" text-anchor="middle" fill="#1F2937">POST /ratings</text>
+    </g>
+    
+    <g id="msg24">
+      <line x1="470" y1="670" x2="640" y2="670" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="555" y="665" text-anchor="middle" fill="#1F2937">Store rating & complete</text>
+    </g>
+    
+    <g id="msg25">
+      <line x1="470" y1="690" x2="810" y2="690" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="640" y="685" text-anchor="middle" fill="#1F2937">Rating notification</text>
+    </g>
+    
+    <g id="msg26">
+      <line x1="810" y1="710" x2="980" y2="710" stroke="#EF4444" stroke-width="2" marker-end="url(#arrowhead)"/>
+      <text x="895" y="705" text-anchor="middle" fill="#1F2937" font-weight="bold">Rating received!</text>
+    </g>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#374151"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <g id="legend" transform="translate(50, 760)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1F2937">
+      Legend: Solid lines = Synchronous calls, Dashed lines = Responses
+    </text>
+  </g>
+</svg>
